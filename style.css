@@ -1,0 +1,335 @@
+/*=============================    Basic Style   ===============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+/*=============================    Nav Section Style   ===============================================*/
+
+.nav_box {
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    width: 20%;
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.burger {
+    margin-left: 15px;
+    width: 34px;
+    cursor: pointer;
+}
+.burger0 {
+    margin-left: 5px;
+    width: 34px;
+    cursor: pointer;
+    display: none;
+}
+
+.youlogo {
+    width: 130px;
+    margin-left: 15px;
+
+}
+
+
+.middle {
+    width: 60%;
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search {
+    width: 60%;
+    height: 34px;
+    border: 1px solid black;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 10px;
+}
+
+.searchicon {
+    width: 24px;
+    padding: 4px 10px;
+    /* margin-left: 5px; */
+    border: 1px solid black;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+    cursor: pointer;
+
+}
+
+.searchicon:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.mic {
+    width: 26px;
+    padding: 3px 4px;
+    margin-left: 10px;
+    border: 1px solid black;
+    border-radius: 1550px;
+    cursor: pointer;
+
+}
+
+.mic:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+
+.right {
+    width: 20%;
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cre_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-content: center;
+    height: 34px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 360px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.cre_btn:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.plus {
+    width: 18px;
+    margin-right: 5px;
+}
+
+.bellicon {
+    width: 23px;
+    padding: 4px 4px;
+    /* border: 1px solid black; */
+    border-radius: 1550px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.userimg {
+    width: 33px;
+    height: 34px;
+    border: 2px solid black;
+    border-radius: 360px;
+}
+
+
+/*=============================    slide Section Style   ===============================================*/
+.main_sect {
+    width: 100%;
+    height: 92vh;
+    /* border: 2px solid black; */
+    display: flex;
+    overflow: hidden;
+
+}
+
+.slide {
+    width: 30vh;
+    height: 100%;
+    border: 1px solid lightgray;
+    display: block;
+}
+
+.slide-box{
+    padding: 25px 0px 15px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.slide-row{
+    text-decoration: none;
+    /* border: 1px solid black; */
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+
+.slide-row:hover{
+    background-color: lightgray;
+}
+
+.slide-row img {
+    width: 23px;
+    margin-left: 15%;
+}
+
+.slide-row h1{
+    color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: auto 0%;
+}
+
+.slide_box_sub_text{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+#show-more{
+    margin-left: 45px;
+}
+
+.login-img{
+    width: 23px;
+    margin-left: 15%;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin: auto 0%;
+    margin-left: 15%;
+}
+
+/*=============================    video Section Style   ===============================================*/
+
+
+.video_sect {
+    width: 100%;
+    height: 100%;
+    border: 1px solid lightgray;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 9vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+li {
+    list-style: none;
+    background-color: black;
+    margin-left: 10px;
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.video_sect_box {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+
+.video {
+    width: 269px;
+    height: 245px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.video:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+
+.info1 {
+    display: flex;
+}
+
+
+.video a {
+    text-decoration: none;
+}
+
+.thamnail {
+    /* margin: auto 5%;
+    height: auto; */
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.login-myimg2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-right: 3%;
+}
+
+
+.title {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    width: 246px;
+
+}
+
+.info2 h1 {
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 24%;
+}
+/* 
+display: none;
+    position: absolute;
+    width: 100%;
+    background-color: white; */

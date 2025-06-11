@@ -1,0 +1,54 @@
+@media only screen and (max-width: 1340px){
+    .burger{
+        display: none;   
+    }
+    .slide {
+        display: none;
+    }
+}
+@media only screen and (max-width: 600px){
+
+    .burger0{
+        display: block;   
+    }
+    
+    .search_box {
+        justify-content: end;
+        /* margin-right: 10px; */
+    }
+    .search{
+        display: none;
+    }
+    .searchicon{
+    padding: 0px;
+    margin-left: 0px;
+    border: none;
+    border-radius: 0px;
+
+    }
+
+    .left{
+        width: 50%;
+    }
+
+    .youlogo {
+        margin-left: 0px;
+    
+    }
+
+    .right{
+        width: 20%;
+    }
+
+    .cre_btn{
+        display: none;
+    }
+
+    .card{
+        width: 100%;
+    }
+
+    .video{
+        width: 100%;
+    }
+}
